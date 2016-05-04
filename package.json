@@ -1,0 +1,20 @@
+{
+  "name": "@piemme/the-one-plain-old-ws",
+  "version": "1.0.0",
+  "description": "plain old ws",
+  "main": "plain-old-ws.js",
+  "author": "Paolo Manca",
+  "scripts": {
+    "test": "tape test.js | faucet",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "pre-commit": "^1.0.10",
+    "standard": "^4.3.3",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.5.1",
+    "tape-catch": "^1.0.5"
+  },
+  "license": "ISC"
+}
